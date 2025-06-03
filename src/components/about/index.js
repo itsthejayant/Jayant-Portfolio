@@ -11,22 +11,21 @@ const Aboutdetails = () => {
                     Arhitect of Enhancement
                 </h2>
                 <p className='font-light text-xs sm:text-sm md:text-base'>
-                I am an engineering student in Computer Science Engineering from Maharaja Agrasen Institute of Technology ,GGSIPU.
-                </p>
+                Product experience designer & frontend engineer with skills to create anything out of thin air.                </p>
             </ItemLayout>
             <ItemLayout className={'col-span-full xs:col-span-6  lg:col-span-4 text-accent'}>
                 <p className='font-semibold w-full text-left text-1xl sm:text-1.5xl'>
-                B.Tech in Computer Science (2021-25)
+                B.Tech (CS) - 9.2 cgpa
                     {/* 5+ <sub className='font-semibold text-base'> clients</sub> */}
                 </p>
             </ItemLayout>
             <ItemLayout className={'col-span-full xs:col-span-6  lg:col-span-4 text-accent'}>
                 <p className='font-semibold w-full text-left text-2xl sm:text-5xl' >
-                    4+ <sub className='font-semibold text-base'> months of work-ex</sub>
+                    2+ <sub className='font-semibold text-base'> years of work-ex</sub>
                 </p>
             </ItemLayout>
             <ItemLayout className={'col-span-full'}>
-                <img className='w-full h-auto' src="https://skillicons.dev/icons?i=js,html,css,aws,babel,bootstrap,mongodb,mysql,vscode,npm,nodejs,nextjs,firebase,d3,react,redux,tailwind,threejs,vercel,vite,git,github,jquery"
+                <img className='w-full h-auto' src="https://skillicons.dev/icons?i=js,html,css,aws,babel,bootstrap,mongodb,mysql,vscode,npm,nodejs,nextjs,firebase,webflow,wordpress,d3,react,redux,tailwind,threejs,vercel,vite,git,github,jquery,figma"
                 alt="icons" loading='lazy'/>
             </ItemLayout>
 

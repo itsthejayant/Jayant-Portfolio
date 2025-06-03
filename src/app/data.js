@@ -19,32 +19,39 @@ Websites:
 export const projectsData = [
   {
     id: 1,
+    name: "Loop (Webflow)",
+    description: "Conversion-optimized marketing site with proven CRO hacks",
+    date: "2022-08-15",
+    demoLink: "https://loopsubscriptions.webflow.io/",
+  },
+  {
+    id: 2,
     name: "Youtube Clone",
     description: "Seamless Video Streaming Application",
     date: "2022-08-15",
     demoLink: "https://mern-frontend-flax.vercel.app",
   },
   {
-    id: 2,
+    id: 3,
     name: "Tic-tac-toe",
     description: "player vs computer",
     date: "2022-06-20",
     demoLink: "https://tic-tac-toe-bay-sigma.vercel.app/",
   },
-  {
-    id: 3,
-    name: "BudgetPlanner",
-    description: "Plan and track expenses",
-    date: "2022-09-10",
-    demoLink: "https://budgetplanner.example.com",
-  },
-  {
-    id: 4,
-    name: "HealthBeat",
-    description: "Monitor heart rate zones",
-    date: "2022-05-30",
-    demoLink: "https://healthbeat.example.com",
-  },
+  // {
+  //   id: 4,
+  //   name: "BudgetPlanner",
+  //   description: "Plan and track expenses",
+  //   date: "2022-09-10",
+  //   demoLink: "https://budgetplanner.example.com",
+  // },
+  // {
+  //   id: 5,
+  //   name: "HealthBeat",
+  //   description: "Monitor heart rate zones",
+  //   date: "2022-05-30",
+  //   demoLink: "https://healthbeat.example.com",
+  // },
   // {
   //   id: 5,
   //   name: "RecipeFinder",
@@ -90,7 +97,7 @@ export const projectsData = [
 ];
 
 export const BtnList = [
-  { label: "Home", link: "/", icon: "home", newTab: false },
+  // { label: "Home", link: "/", icon: "home", newTab: false },
   { label: "About", link: "/about", icon: "about", newTab: false },
   { label: "Projects", link: "/projects", icon: "projects", newTab: false },
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
@@ -108,12 +115,12 @@ export const BtnList = [
     icon: "linkedin",
     newTab: true,
   },
-  {
-    label: "Certifications",
-    link: "/certifications",
-    icon: "certificate",
-    newTab: false,
-  },
+  // {
+  //   label: "Certifications",
+  //   link: "/certifications",
+  //   icon: "certificate",
+  //   newTab: false,
+  // },
   {
     label: "Resume",
     link: "/Jayant Aggarwal Resume +91 9711079494.pdf",

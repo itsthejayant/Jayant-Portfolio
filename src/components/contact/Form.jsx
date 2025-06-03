@@ -51,7 +51,19 @@ export default function Form() {
   
   return (
     <>
-    <Toaster richColors={true} theme={"light"} closeButton={true} position="top-center"/>
+    <div className='flex flex-col items-center gap-5'>
+    <a href="mailto:jayantaggarwal55@gmail.com" >
+      <button className="px-5 py-2 text-white border border-yellow-200 rounded cursor-pointer backdrop-blur bg-transparent">
+        Mail: jayantaggarwal55@gmail.com
+      </button>
+    </a>
+    <a href="tel:+1234567890">
+    <button className="px-5 py-2 text-white border border-yellow-200 rounded cursor-pointer backdrop-blur bg-transparent">
+        Call +91 9711079494
+      </button>
+    </a>
+    </div>
+    {/* <Toaster richColors={true} theme={"light"} closeButton={true} position="top-center"/>
     <motion.form onSubmit={handleSubmit(onSubmit)}
     variants={container}
     initial="hidden" animate="show"
@@ -84,7 +96,7 @@ export default function Form() {
       hover:shadow-glass-sm backdrop-blur-sm text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50
       cursor-pointer capitalize' 
       type="submit" />
-    </motion.form>
+    </motion.form> */}
     </>
   );
 }
