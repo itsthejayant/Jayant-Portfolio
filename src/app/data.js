@@ -19,27 +19,34 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "Loop",
-    description: "Conversion-optimized marketing site with proven CRO hacks",
-    date: "2025-01-15",
-    demoLink: "https://loopwork.co/",
+    name: "Customer Portal Generator",
+    description: "For D2C shoppify merchants",
+    date: "2022-08-15",
+    demoLink: "https://customer-portal-generator.vercel.app/",
   },
   {
     id: 2,
-    name: "Cheesy Place",
-    description: "Get best cheese here",
-    date: "2024-11-15",
-    demoLink: "https://www.cheesyplace.com/",
-  },
-  {
-    id: 3,
     name: "MyTube",
     description: "Seamless Video Streaming Application",
     date: "2022-08-15",
     demoLink: "https://mern-frontend-flax.vercel.app",
   },
   {
+    id: 3,
+    name: "Loop",
+    description: "Conversion-optimized marketing site with proven CRO hacks",
+    date: "2025-01-15",
+    demoLink: "https://loopwork.co/",
+  },
+  {
     id: 4,
+    name: "Cheesy Place",
+    description: "Get best cheese here",
+    date: "2024-11-15",
+    demoLink: "https://www.cheesyplace.com/",
+  },
+  {
+    id: 5,
     name: "AI-tic-tac-toe",
     description: "player vs computer",
     date: "2022-06-20",
@@ -128,12 +135,12 @@ export const BtnList = [
   //   icon: "certificate",
   //   newTab: false,
   // },
-  {
-    label: "Resume",
-    link: "/Jayant Aggarwal Resume +91 9711079494.pdf",
-    icon: "resume",
-    newTab: true,
-  },
+  // {
+  //   label: "Resume",
+  //   link: "/Jayant Aggarwal Resume +91 9711079494.pdf",
+  //   icon: "resume",
+  //   newTab: true,
+  // },
 ];
 
 
